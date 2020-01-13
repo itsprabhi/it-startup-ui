@@ -1,0 +1,9 @@
+.nav-item a:hover{
+    color:#38d39f;
+    text-decoration: underline;
+}
+
+.link-btn:hover{
+    background: #8363f7;
+    transition: 0.4s;
+}
