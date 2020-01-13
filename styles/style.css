@@ -90,7 +90,7 @@ nav{
 .illustration{
     position: absolute;
     width:60vw;
-    /* height: 100vh; */
+    height: 100vh;
     top:-80px;
     right: 0;
     z-index: -1;
