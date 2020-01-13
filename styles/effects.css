@@ -4,6 +4,18 @@
 }
 
 .link-btn:hover{
-    background: #8363f7;
+    background: #13a775;
+    transition: 0.4s;
+}
+
+.about-card:hover{
+    background: #38d39f;
+    transition: 0.4s;
+    color:white
+}
+
+.about-card:hover i{
+    background: white;
+    color: #38d39f;
     transition: 0.4s;
 }
