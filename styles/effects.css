@@ -19,3 +19,6 @@
     color: #38d39f;
     transition: 0.4s;
 }
+* {
+    box-sizing: border-box;
+  }
