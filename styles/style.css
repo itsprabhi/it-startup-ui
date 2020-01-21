@@ -6,6 +6,14 @@ body{
     overflow-x: hidden;
 }
 
+.background-svg{
+    position: absolute;
+    height: 120vh;
+    right: -20px;
+    top: -100;
+    z-index: -1;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Raleway', sans-serif;
 }
@@ -66,7 +74,7 @@ nav{
 
 .intro-text{
     font-size: 4.5vh;
-    width: 60%;
+    width: 50%;
     margin-bottom: 50px;
     font-weight: bold;
 }
@@ -89,8 +97,7 @@ nav{
 
 .illustration{
     position: absolute;
-    width:60vw;
-    height: 100vh;
+    height: 70vh;
     top:-80px;
     right: 0;
     z-index: -1;
@@ -100,6 +107,19 @@ nav{
     margin:auto;
     width:70%;
     position: relative;
+}
+
+.water-mark{
+    position: absolute;
+    font-size: 130px;
+    opacity: 0.05;
+    color:black;
+    top:-90px;
+}
+
+.water-mark-work{
+    right: 250px;
+    top:-100px;
 }
 
 .svg-right{
@@ -233,6 +253,11 @@ nav{
 .portfolio-container > div {
     height: 250px;
     background: #eee;
+}
+
+.portfolio-container > div:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .background-img{
