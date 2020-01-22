@@ -47,6 +47,10 @@ nav{
     font-size: 3vh;
 }
 
+.toggle-bar{
+    display: none;
+}
+
 .nav-list{
     list-style: none;
     padding: 0;
