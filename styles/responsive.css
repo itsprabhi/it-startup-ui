@@ -169,3 +169,10 @@
         top:5vh;
     }
 }
+
+@media screen and (max-width:450px){
+    .nav-list-off{
+        transform: translateX(150px);
+        transition: 0.3s;
+    }
+}
