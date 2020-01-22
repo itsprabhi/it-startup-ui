@@ -176,3 +176,17 @@
         transition: 0.3s;
     }
 }
+
+@media screen and (max-width:800px){
+    .footer-items{
+        display: block;
+        text-align: center;
+    }
+    .footer-items > div {
+        margin: 10px auto;
+        width:100%;
+    }
+    .footer-social-links{
+        display: block;
+    }
+}
